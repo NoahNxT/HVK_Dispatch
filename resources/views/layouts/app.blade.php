@@ -23,9 +23,6 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                
-                    <img class="navbar-brand" src="images/logopakket HVK/logo fixed/logo_HVK_V3.png"></img>
-               
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,8 +30,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                    <img class="navbar-brand" src="images/logopakket HVK/logo fixed/logo_HVK_V3.png"></img>
                     </ul>
+
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">     
+                            <h1>Centrale HVK</h1>
+                        </a>
+                    </div>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
