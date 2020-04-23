@@ -511,7 +511,6 @@ mark,
 }
 
 .img-thumbnail {
-  padding: 0.25rem;
   background-color: #f8fafc;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
@@ -606,6 +605,39 @@ pre code {
   }
 }
 
+.container_category {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container_category {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container_category {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container_category {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_category {
+    max-width: 1800px;
+  }
+}
+
 .container-fluid,
 .container-xl,
 .container-lg,
@@ -621,7 +653,7 @@ pre code {
 @media (min-width: 576px) {
   .container-sm,
   .container {
-    max-width: 700px;
+    max-width: 540px;
   }
 }
 
@@ -750,6 +782,12 @@ pre code {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+  padding-bottom: 15px;
+}
+
+#category {
+  background-color: grey;
+  text-align: center;
 }
 
 .row-cols-1 > * {
@@ -786,6 +824,7 @@ pre code {
   flex: 0 0 auto;
   width: auto;
   max-width: 100%;
+  padding-bottom: 15px;
 }
 
 .col-1 {
@@ -2296,7 +2335,8 @@ textarea.form-control {
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  
 }
 
 .form-text {
@@ -2599,7 +2639,7 @@ textarea.form-control.is-invalid {
   }
 
   .form-inline .form-group {
-    display: flex;
+    display: block;
     flex: 0 0 auto;
     flex-flow: row wrap;
     align-items: center;
@@ -2651,8 +2691,8 @@ textarea.form-control.is-invalid {
   display: inline-block;
   font-weight: 400;
   color: #212529;
-  text-align: center;
   vertical-align: middle;
+  text-align: left;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -2660,11 +2700,12 @@ textarea.form-control.is-invalid {
           user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem 1.25rem;
   font-size: 0.9rem;
   line-height: 1.6;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
