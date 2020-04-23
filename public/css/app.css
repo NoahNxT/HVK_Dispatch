@@ -785,9 +785,18 @@ pre code {
   padding-bottom: 15px;
 }
 
+#badge_col-2{
+  position: relative;
+  width: 100%;
+  padding-top: 2%;
+  
+}
+
 #category {
   background-color: grey;
   text-align: center;
+  color: white;
+  font-size: larger;
 }
 
 .row-cols-1 > * {
@@ -5028,7 +5037,7 @@ input[type=button].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  padding: 0.5rem;
 }
 
 .card-title {
@@ -5053,7 +5062,7 @@ input[type=button].btn-block {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding: 0.02rem 0.5rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
