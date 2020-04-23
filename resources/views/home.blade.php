@@ -27,19 +27,15 @@
 
     <div class="row">
         <div class="col">       
-            <div class="card-header">Interventie ploeg 1</div>
+            <div class="card-header">
+                <a>Interventie ploeg 1</a>
+                <a id="clock">09:55</a>
+            </div>
                 <div class="card-body border">
                     <div class="row">
                         <div class="col-4">
                             <img class="img-thumbnail" src="images/icons/medical-profile-icon.png"></img>
-                        </div>
-                        <div class="col" id="badge_col-2">
-                            <div class="row">
-                                <div class="col" id="badge_col-2">
-                                    <p>09:55</p>
-                                </div>
-                                <div class="col">
-                                    <div class="btn-group">
+                            <div class="btn-group">
                                         <button type="button" class="btn btn-info btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Status</button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="#">Beschikbaar</a>
@@ -53,8 +49,8 @@
                                             <a class="dropdown-item" href="#">Niet Beschikbaar</a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col" id="badge_col-2">
                             <div class="row">
                                 <div class="form-group">
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
