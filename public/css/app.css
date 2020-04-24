@@ -51,6 +51,26 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
+
+
+#category {
+  background-color: grey;
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
 article,
 aside,
 figcaption,
@@ -800,12 +820,7 @@ pre code {
   
 }
 
-#category {
-  background-color: grey;
-  text-align: center;
-  color: white;
-  font-size: larger;
-}
+
 
 .row-cols-1 > * {
   flex: 0 0 100%;
