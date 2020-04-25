@@ -25,7 +25,7 @@
             </tr>
             <tr class="table-success">
             <td>UZA</td>
-            <th scope="row">Interventie ploeg 2</th>
+            <th scope="row">MUG</th>
             <td>Beschikbaar</td>
             <td>-</td>
             <td>-</td>
@@ -53,7 +53,7 @@
             </tr>
             <tr class="table-danger">
             <td>HP2</td>
-            <th scope="row">Interventie ploeg 3</th>
+            <th scope="row">AMBU1</th>
             <td>Transport</td>
             <td>12345</td>
             <td>Jesusstreet 12</td>
@@ -74,7 +74,7 @@
             </tr>
             <tr class="table-danger">
             <td>HP2</td>
-            <th scope="row">Interventie ploeg 3</th>
+            <th scope="row">MUG 2</th>
             <td>Transport</td>
             <td>12345</td>
             <td>Jesusstreet 12</td>
@@ -95,7 +95,7 @@
             </tr>
             <tr class="table-danger">
             <td>HP2</td>
-            <th scope="row">Interventie ploeg 3</th>
+            <th scope="row">AMBU3</th>
             <td>Transport</td>
             <td>12345</td>
             <td>Jesusstreet 12</td>
