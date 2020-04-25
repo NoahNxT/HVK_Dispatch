@@ -179,9 +179,9 @@ a {
   color: #e94606;
   text-decoration: none;
   background-color: transparent;
-  padding-left: 45%;
   width: 100%;
 }
+
 
 a:hover {
   color: #1d68a7;
@@ -519,10 +519,9 @@ mark,
 }
 
 .img-thumbnail {
-  background-color: #f8fafc;
-  border: 1px solid #dee2e6;
+  background-color: #ffffff;
   border-radius: 0.25rem;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -5026,6 +5025,7 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-right: 15px;
 }
 
 .card > hr {
@@ -5086,7 +5086,7 @@ input[type=button].btn-block {
 }
 
 .card-footer {
-  padding: 0.75rem 1.25rem;
+  padding: 0.1rem 0.75rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -10901,6 +10901,7 @@ a.text-dark:focus {
 
   .container {
     min-width: 992px !important;
+    
   }
 
   .navbar {
